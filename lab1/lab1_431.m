@@ -67,7 +67,7 @@ for i = 1:size(workPoints, 2)
     fprintf('Twew0 = %.2f, Tp0 = %.2f\n', Twew0, Tp0);
     
     % Symulacja w Simulink
-    out = sim('simulink_01.slx', simulationTime);
+    out = sim('simulink_431.slx', simulationTime);
     
     % Wybór koloru i stylu linii
     color = colors{i};
